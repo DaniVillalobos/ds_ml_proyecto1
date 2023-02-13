@@ -1,106 +1,37 @@
 # Australian Housing Price Prediction - Advanced Regression
 
-## Table of Contents
-
-- [Table of Contents](#table-of-contents)
-- [Introduction](#introduction)
-  - [Methods Used](#methods-used)
-  - [Technologies](#technologies)
-- [Download and Setup](#download-and-setup)
-  - [Prerequisites](#prerequisites)
-  - [How to Run](#how-to-run)
-- [Problem Statement](#problem-statement)
-  - [Business Goal](#business-goal)
-  - [Data Preparation:](#data-preparation)
-  - [Model Building \& Evaluation](#model-building--evaluation)
-  - [Conclusions](#conclusions)
-    - [Ridge Regression](#ridge-regression)
-    - [Lasso Regression](#lasso-regression)
-    - [Most Significant Variables are:](#most-significant-variables-are)
-
 ## Introduction 
 
-...
+Este es un análisis para lograr una Prediccion de Precios en Bienes Raices, basado en una base de datos de venta de casas en Australia, con lo que se pretende determinar.
 
 ### Methods Used
-...
-
+El método usado en este proyecto, es la regression. Para poder ver que tipo de regressión es la más adecuada, se hicieron prubeas con:
+ - Linear regression
+ - Ridge Regression 
+ - LASSo Regression
+ 
 ### Technologies
 * Python
 * Pandas
-...
 
 ## Download and Setup
-### Prerequisites
+### Prerequisitos
 
-This project needs Anaconda installed in the computer.
+Para lograr ver los resultados de este proyecto, se recomienda el uso de un Jupyter Notebook, en este caso se hizo uso de Google Colab Notebooks, los cuales vienen enlazados con una cuenta de gmail y no es necesario otro requisito para su uso. 
 
-For more details about the instalation, go to:  https://docs.anaconda.com/anaconda/install/index.html
+Sin embargo, puede lograrse un normal funcionamiento con una instalación de Python y el uso de cualquier herramienta de edición (en algunos casos puede requerir la instalación de algunas librerias extra). 
 
 ### How to Run
 
-You can download the source code cloning this repository using Git:
-
-1. Open your favorite Terminal app (Unix, Linux or Macos), such as Terminal, Command, Console, iTerm2, so on.
-
-2. Clone the repository
-
-```
-git clone <GITHUB_REPO_URL>
-```
-
-3. Open the ** *.ipynb** notebook file in Anaconda.
-
-```
-jupyter notebook <FILE.ipynb
-```
-
-## Problem Statement
-
-...
-
-### Business Goal
-
-...
-
----
-
-### Data Preparation:
-
-1. Data Clearning and Missing Data Analysis.
-2. Outlier Analysis & Treatment.
-3. Deriving Categorical Columns.
-4. Univariate Analysis.
-5. Bivariate Analysis.
-6. Multivariate Analysis.
-
-### Model Building & Evaluation
-
-1. Training and Test data split.
-2. Feature Scaling - StandardScaler.
-3. Feature Engineering & Selection using RFE and Variance Inflation factor.
-4. Model preperation using OLS & Linear Regression.
-5. Regularization Ridge & Lasso Regression Model.
-6. Residual Analysis.
-7. Model Evaluation & Assessment.
-8. Prediction.
-9. Final Conclusion & Analysis.
-
-### Conclusions
-
-R2_Score for Lasso regresion.... 
-
-#### Ridge Regression
-* **Optimal Lambda Value:** ##
-* **R2 Score Train:** 0.##
-* **R2 Test Score:**  0.##
-* **RMSE Test:**      0.##
-
-#### Lasso Regression
-* **Optimal Lambda Value:** 0.####
-* **R2 Score Train:**  0.##
-* **R2 Test Score:**   0.##
-* **RMSE Test:**       0.##
+Se puede hacer uso de este proyecto con el siguiente procedimiento:
+1. Clonar el repositorio desde GitHub
+    * Copiar en url del repo y en una terminal de su preferencia seguir estos pasos:
+      - Ubicar una carpeta para almacenar el proyecto
+      - Escribir en la terminal:
+              git clone <Repo URL>
+      - Abrir el archivo .ipynb y verificar que la base de datos este bien ruteada.
+      - Empezar a correr los pasos propuestos.
+2. Copiar el contenido en un Google Colab Notebook, verificando que la base de datos tambein se encuentren ahi.
 
 #### Most Significant Variables are:
 * ...
