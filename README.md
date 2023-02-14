@@ -34,7 +34,15 @@ Se puede hacer uso de este proyecto con el siguiente procedimiento:
 2. Copiar el contenido en un Google Colab Notebook, verificando que la base de datos tambein se encuentren ahi.
 
 #### Most Significant Variables are:
-* ...
-* ...
-* ...
-* ...
+De acuerdo al análisis de Randon Forest, se encontraron las 10 variables más importantes del modelo:
+
+* OverallQual (Material general y el acabado de la casa): 0.482385524510015
+* TotalSF (pies cuadrados totales del área de sotano): 0.31151294786171596
+* EdadCasa: 0.019820532193987023
+* OverallCond (Califica el estado general de la casa): 0.017556625169394883
+* EdadRemod (Fecha de remodelación): 0.014247354824679592
+* LotArea (Tamaño del lote en pies cuadrados): 0.013963901725239928
+* TotalBathrooms (Cantidad de baños): 0.012771176156901357
+* GarageCars (Tamaño del garaje en capacidad de automóviles): 0.011134577026914588
+* LotFrontage (Pies lineales de calle conectados a la propiedad): 0.00706667606021561
+* GarageType_Detchd (Ubicación del garaje): 0.006446318011371601
