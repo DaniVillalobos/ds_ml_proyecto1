@@ -13,6 +13,14 @@ El método usado en este proyecto, es la regression. Para poder ver que tipo de 
 ### Technologies
 * Python
 * Pandas
+* numpy
+* matplotlib
+* pylab 
+* seaborn
+* impyute
+* sklearn
+* statsmodels
+* scipy
 
 ## Download and Setup
 ### Prerequisitos
